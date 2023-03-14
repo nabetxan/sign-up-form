@@ -1,0 +1,93 @@
+:root {
+  --color-dark: #0d8595;
+  --color-offwhite: #f3e4d6;
+  --color-light: #a8c6c8;
+  --color-brown: #52433e;
+  --color-light-shadow: #96b3b3;
+  /* https://coolors.co/palette/0d8595-f3e4d6-a8c6c8-52433e-96b3b3 */
+}
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin: 0;
+  background-color: var(--color-offwhite);
+  /* border-style: solid;
+  border-color: red; */
+  color: var(--color-brown);
+}
+
+.outframe {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(100px, auto);
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("./tyler-nix-HuneWvWYh-Y-unsplash.jpg");
+  background-size: cover; /* this will resize the image to cover the entire div */
+  background-position: center; /* this will center the image within the div */
+}
+
+#logo {
+  text-align: center;
+  color: var(--color-offwhite);
+  background-color: rgba(13, 133, 149, 0.7);
+  font-weight: 700;
+  padding: 10% 50%;
+  opacity: 100%;
+  font-size: xx-large;
+  border-radius: 4px;
+}
+
+.credit,
+.credit > a {
+  color: rgba(243, 228, 214, 0.7);
+  background: none;
+  margin-top: 220px;
+  margin-bottom: 0;
+  font-weight: 300;
+  font-size: smaller;
+}
+
+.content,
+.background-form-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.background-form-side {
+  height: 90vh;
+}
+
+.intro-text {
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  font-weight: 300;
+}
