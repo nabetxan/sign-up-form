@@ -1,2 +1,2 @@
-# sign-up-form-exercise
+# sign-up-form
 Odin's Project
