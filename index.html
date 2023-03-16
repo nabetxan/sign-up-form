@@ -92,14 +92,17 @@
                 <label for="pass">Confirm Password:</label>
                 <input
                   type="password"
-                  id="pass"
-                  name="password"
+                  id="passcfm"
+                  name="passwordcfm"
                   minlength="8"
                   maxlength="24"
                   required
                 />
               </fieldset>
-              <button type="submit">Create Account</button>
+              <div class="submit-area">
+                <button id="submit-btn" type="submit">Create Account</button>
+                <div id="submit-error"></div>
+              </div>
               <div class="has-account">
                 Already have an account? <a href="">Log in</a>
               </div>

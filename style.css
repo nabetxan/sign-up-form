@@ -47,7 +47,6 @@
   padding: 10% 50%;
   font-size: xx-large;
   border-radius: 5px;
-
 }
 
 .credit,
@@ -137,7 +136,7 @@ input:focus {
 }
 
 input:invalid {
-  border: 2px solid rgb(202, 64, 15)
+  border: 2px solid rgb(202, 64, 15);
 }
 
 input:focus:valid {
@@ -169,4 +168,14 @@ button[type="submit"] {
 
 .has-account {
   margin-left: 10px;
+}
+
+.submit-area {
+  display: flex;
+  align-items: baseline;
+}
+
+#submit-error {
+  margin-left: 10px;
+  color: rgb(202, 64, 15);
 }
